@@ -12,6 +12,8 @@ set incsearch
 set number
 set relativenumber
 inoremap jj <Esc>
+highlight Comment cterm=italic
+command! Wq wq
 " }
 " tab formatting {
 set tabstop=4
