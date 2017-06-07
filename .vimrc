@@ -9,10 +9,8 @@ set wildmenu
 set hlsearch
 set showmatch
 set incsearch
-set number
-set relativenumber
 inoremap jj <Esc>
-highlight Comment cterm=italic
+highlight Comment cterm=bold
 command! Wq wq
 " }
 " tab formatting {
@@ -80,5 +78,11 @@ inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
+" }
+" line numbers {
+set number
+set relativenumber
+:command NoLines set nonumber | set norelativenumber
+:command Lines set number | set relativenumber
 " }
 " vim:foldmethod=marker:foldmarker={,}:foldlevel=0:
