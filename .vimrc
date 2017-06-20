@@ -9,7 +9,6 @@ set wildmenu
 set hlsearch
 set showmatch
 set incsearch
-set autoread
 inoremap jj <Esc>
 highlight Comment cterm=bold
 command! Wq wq
