@@ -10,6 +10,7 @@ set hlsearch
 set showmatch
 set incsearch
 set ignorecase
+colo ron
 inoremap jj <Esc>
 highlight Comment cterm=bold
 command! Wq wq
