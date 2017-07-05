@@ -14,6 +14,7 @@ colo ron
 inoremap jj <Esc>
 highlight Comment cterm=bold
 command! Wq wq
+cmap w!! w !sudo tee %
 " }
 " Tab formatting {
 set tabstop=4
