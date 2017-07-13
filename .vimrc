@@ -10,6 +10,7 @@ set hlsearch
 set showmatch
 set incsearch
 set ignorecase
+set nowrap
 colo ron
 inoremap jj <Esc>
 highlight Comment cterm=bold
